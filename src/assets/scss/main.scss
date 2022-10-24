@@ -1,0 +1,30 @@
+@import './reset.scss';
+@import './font.scss';
+@import './variables.scss';
+
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media (max-width: 1469px) {
+        max-width: 1200px;
+    }
+    
+    @media (max-width: 1199px) {
+        max-width: 992px;
+    }
+    
+    @media (max-width: 991px) {
+        max-width: 768px;
+    }
+    
+    @media (max-width: 767px) {
+        max-width: 576px;
+    }
+    
+    @media (max-width: 575px) {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
